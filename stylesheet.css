@@ -7,7 +7,11 @@
       height:100%;
       width:100%;
       margin:0;
-      background: url("images/noisenew.png"), linear-gradient(180deg, #0d3347, #0f5e76);
+      background: url("images/noisenew.png"), linear-gradient(180deg,#f6aa1c,#bc3908,#941b0c);
+      /*old linear gradients
+      #42713e,#0d0f0c)
+      #0d3347, #0f5e76)
+      */
       background-repeat: repeat;
       background-attachment: fixed;
       overflow-x: hidden;
@@ -111,7 +115,7 @@
       border-bottom-right-radius: 180px;
       border-top-left-radius: 0px;
       border-top-right-radius: 0px;
-      background-color: #d74040ff;
+      background-color: #e12f2f;
     }
 
     .navlmnt:hover
@@ -123,7 +127,7 @@
 
     .feature:hover
     {
-      background-color: rgba(212, 50, 0,1);
+      background-color: #db4343;
     }
 
 
@@ -175,7 +179,7 @@
     .socials
     {
       margin: 0;
-      padding: .3%;
+      padding: .1%;
       background-color: #eeeeee;
       width:100vw;
       position:fixed;
@@ -191,7 +195,7 @@
       vertical-align: middle;
       margin-left:1%;
       margin-right:1%;
-      filter: invert(27%) sepia(45%) saturate(6879%) hue-rotate(348deg) brightness(98%) contrast(71%);
+      filter: invert(24%) sepia(88%) saturate(7155%) hue-rotate(355deg) brightness(104%) contrast(76%);
       /*https://codepen.io/sosuke/pen/Pjoqqp*/
     }
 
