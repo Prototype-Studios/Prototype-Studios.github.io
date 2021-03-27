@@ -7,10 +7,12 @@
       height:100%;
       width:100%;
       margin:0;
-      background: url("images/noisenew.png"), linear-gradient(180deg,#f6aa1c,#bc3908,#941b0c);
+      background: url("images/noisenew.png"),linear-gradient(180deg,#bc3908,#941b0c);
       /*old linear gradients
+       linear-gradient(180deg,#f6aa1c,#bc3908,#941b0c)
       #42713e,#0d0f0c)
       #0d3347, #0f5e76)
+      #f6aa1c,#bc3908,#941b0c
       */
       background-repeat: repeat;
       background-attachment: fixed;
