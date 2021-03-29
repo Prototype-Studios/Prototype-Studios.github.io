@@ -29,21 +29,13 @@ time, mark, audio, video {
 html
 {
 background-color:#e0660f;
+font-family:'Open Sans';
 }
 
-body
-{
-
-}
 
 nav
 {
 background-color: white;
-}
-
-h1
-{
-font-family:
 }
 
 /*Animations*/
