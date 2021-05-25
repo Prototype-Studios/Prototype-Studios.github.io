@@ -5,6 +5,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,6 +29,7 @@ time, mark, audio, video {
 	color:white;
 }
 
+/*General Classes*/
 html
 {
 height:100%;
@@ -35,19 +38,36 @@ background: linear-gradient(180deg,#335d77,#0e2133);
 font-family:'Open Sans';
 }
 
+h1
+{
+	font-size: 5vmax;
+	white-space: nowrap;
+}
 
 nav
 {
-background-color: white;
+	margin-top: 2vmin;
 }
 
-/*Animations*/
-    .fadein
-    {
-      animation: fadein .6s;
-    }
+/*Custom Classes*/
+.navdiv
+{
+	border: 1px solid white;
+	border-radius: 100vw;
+}
 
-    @keyframes fadein {
-      0% {opacity:0;}
-      100% {opacity:1;}
-    }
+.navlmnt
+ {
+	 text-decoration: none;
+ }
+
+/*Animations*/
+.fadein
+{
+  animation: fadein .6s;
+}
+
+@keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

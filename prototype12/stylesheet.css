@@ -31,7 +31,7 @@ time, mark, audio, video {
 }
 
 html{
-	background: linear-gradient(180deg,#335d77,#0e2133);
+	background-color: #141414;
 	height:100%;
 	width:100%;
 }
