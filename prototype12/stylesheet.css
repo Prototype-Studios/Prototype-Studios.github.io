@@ -36,14 +36,26 @@ html{
 	width:100%;
 }
 
-a:hover {
-  opacity: 80%;
+.mainlogo {
+  margin:10vmax;
+  margin-top:5%;
+	margin-bottom:5%;
 }
 
-.mainlogo {
-  margin:20%;
-  margin-bottom:0;
-  margin-top:5%;
+.button
+{
+	text-align:center;
+	border: 2px solid white;
+	border-radius: 1000px;
+	background-color:white;
+	color:#141414;
+	width:120px;
+	padding:.3vmax;
+}
+.button:hover
+{
+	background-color:#141414;
+	color:white;
 }
 
 /*Animations*/
