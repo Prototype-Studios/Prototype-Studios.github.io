@@ -7,7 +7,7 @@
 <html lang="en" dir="ltr">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="../stylesheet.css">
 <link rel="icon" href="images/studios/icons/favicon.png">
 
 <!--site metadata-->
@@ -15,62 +15,58 @@
   <title>Prototype 12</title>
 </head>
 
-<body class="fadein">
-<a href="../index.html" class="position-absolute" btn btn-outline-light"">Return</a>
-<div class="container-xxl">
-  <img src="images/Prototype12-Logo.svg" class="position-relative start-50 translate-middle-x my-5 w-75"/>
-</div>
-
-
-<div class="container w-75">
-<div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
-  <div class="carousel-inner bevel">
-    <div class="carousel-item active">
-      <img src="images/carousel/BedroomIMA.png" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/carousel/FirstRoomIMA.png" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/carousel/ItemThrowerIMA.png" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/carousel/UnderAndOverFirstIMA.png" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/carousel/UnderAndOverSecondIMA.png" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/carousel/UnderAndOverThirdIMA.png" class="d-block w-100">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-
+<body class="container fadein">
+<a href="../index.html" class="position-absolute">Return</a>
+<div class="w-75 position-relative start-50 translate-middle-x">
+<img src="images/Prototype12-Logo.svg" class="position-relative start-50 translate-middle-x my-5 w-75"/>
 <div class="text-center">
-  <a type="button" class="btn btn-outline-light mb-5" href="../404.html">Play on itch.io</a>
+<a type="button" class=" btn btn-outline-light mb-5" href="../404.html">Play on itch.io</a>
 </div>
 
-<div class="container w-50 white">
-  <div class="row align-items-center">
-    <div class="col text-center">
-      <h3>The Story</h3><br>
-      <a class="lead">Here is some text about something i havent written yet.</a>
+
+<div class="start-50 top-50">
+  <div id="ScreenshotCarousel" class="carousel slide mb-5 mx-auto" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+   </div>
+    <div class="carousel-inner bevel">
+      <div class="carousel-item active"> <img src="images/carousel/BedroomIMA.png" class="d-block w-100"> </div>
+      <div class="carousel-item"> <img src="images/carousel/FirstRoomIMA.png" class="d-block w-100"> </div>
+      <div class="carousel-item"> <img src="images/carousel/ItemThrowerIMA.png" class="d-block w-100"> </div>
+      <div class="carousel-item"> <img src="images/carousel/UnderAndOverFirstIMA.png" class="d-block w-100"> </div>
+      <div class="carousel-item"> <img src="images/carousel/UnderAndOverSecondIMA.png" class="d-block w-100"> </div>
+      <div class="carousel-item"> <img src="images/carousel/UnderAndOverThirdIMA.png" class="d-block w-100"> </div>
     </div>
-    <div class="col text-center">
+    <button class="carousel-control-prev" type="button" data-bs-target="#ScreenshotCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ScreenshotCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</div>
+
+<div class="white">
+  <div class="row align-items-center">
+    <div class="col">
+      <h3>The Story</h3><br>
+      <a class="lead">If you’re using navs to provide a navigation bar, be sure to add a role="navigation" to the most logical parent container of the , or wrap a  element around the whole navigation. Do not add the role to the  itself, as this would prevent it from being announced as an actual list by assistive technologies.
+Note that navigation bars, even if visually styled as tabs with the .nav-tabs class, should not be given role="tablist", role="tab" or role="tabpanel" attributes. These are only appropriate for dynamic tabbed interfaces, as described in the WAI ARIA Authoring Practices. See JavaScript behavior for dynamic tabbed interfaces in this section for an example. The aria-current attribute is not necessary on dynamic tabbed interfaces since our JavaScript handles the selected state by adding aria-selected="true" on the active tab.</a>
+    </div>
+    <div class="col">
+      <br>
       <h3>Features</h3><br>
-      <a class="lead">Here is some text about something i havent written yet.</a>
+      <a class="lead">If you’re using navs to provide a navigation bar, be sure to add a role="navigation" to the most logical parent container of the , or wrap a  element around the whole navigation. Do not add the role to theitself, as this would prevent it from being announced as an actual list by assistive technologies.
+
+Note that navigation bars, even if visually styled as tabs with the .nav-tabs class, should not be given role="tablist", role="tab" or role="tabpanel" attributes. These are only appropriate for dynamic tabbed interfaces, as described in the WAI ARIA Authoring Practices. See JavaScript behavior for dynamic tabbed interfaces in this section for an example. The aria-current attribute is not necessary on dynamic tabbed interfaces since our JavaScript handles the selected state by adding aria-selected="true" on the active tab.</a>
     </div>
   </div>
 </div>
-<div class="grey position-relative translate-middle-x">Harry Bond 2021. Built with Bootstrap.</div>
+<div class="grey text-center small mt-5">Harry Bond 2021. Built with Bootstrap.</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
