@@ -1,11 +1,6 @@
 
 /*Made by Harry Bond 2021*/
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 body
 {
 	width:100%;
@@ -16,6 +11,16 @@ a
 {
 	color:white;
 	text-decoration: none;
+}
+
+.white
+{
+	color:white;
+}
+
+.grey
+{
+	color:grey;
 }
 
 .bevel
